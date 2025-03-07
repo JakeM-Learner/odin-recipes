@@ -1,4 +1,9 @@
+body {
+    background-color: antiquewhite;
+}
+
 h1 {
+    margin-top: 50px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -7,28 +12,29 @@ h1 {
     color: black;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(207, 205, 205);
+    background-color: rgb(238, 232, 232);
     text-align: center;
+    outline: none;
 }
 
 #button1 {
-    position:absolute;
-    left:50%;
-    top:10%;
-    transform: translate(-50%, -50%);
-}
-
-#button2 {
     position:absolute;
     left:50%;
     top:15%;
     transform: translate(-50%, -50%);
 }
 
-#button3 {
+#button2 {
     position:absolute;
     left:50%;
     top:20%;
+    transform: translate(-50%, -50%);
+}
+
+#button3 {
+    position:absolute;
+    left:50%;
+    top:25%;
     transform: translate(-50%, -50%);
 }
 
