@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grey {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(207, 205, 205);
+    text-align: center;
+}
+
+#button1 {
+    position:absolute;
+    left:50%;
+    top:10%;
+    transform: translate(-50%, -50%);
+}
+
+#button2 {
+    position:absolute;
+    left:50%;
+    top:15%;
+    transform: translate(-50%, -50%);
+}
+
+#button3 {
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform: translate(-50%, -50%);
+}
+
+a:link    {color:#000;}  /* unvisited link  */
+a:visited {color:#000;}  /* visited link    */
+a:hover   {color:#000;}  /* mouse over link */
+a:active  {color:#000;}  /* selected link   */ 
