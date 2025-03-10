@@ -8,37 +8,33 @@
 body {
     background-color: #eee;
     font-family: "Times New Roman" 'Times New Roman', Times, serif;
-  
-  }
-  
-  .card {   
-    width: 600px;
-    height: 800px;
     background: antiquewhite;
-    margin: 16px auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    outline: black solid 1px;
+  
   }
+  
+ 
   
   .title {
     display: inline-block;
     background: antiquewhite;
-    font-size: 36px;
-    width: 200px;
+    font-size: 48px;
+    width: 250px;
     padding: 2px 8px;
-    margin: 8px 200px;
-    margin-bottom: 20px;
+    margin: 100px 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 50px;
     text-align: center;
     outline: maroon double 4px;
   }
   
   .content {
     background: whitesmoke;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
-    width: 450px;
-    margin: 10px 75px;
+    width: 650px;
+    margin: 10px 50%;
+    transform: translate(-50%, 0);
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 8px;
