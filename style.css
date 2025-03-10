@@ -10,6 +10,7 @@ body {
     font-family: "Times New Roman" 'Times New Roman', Times, serif;
     font-size: 10px;
     background: antiquewhite;
+    overflow-x: hidden;
   
   }
   
