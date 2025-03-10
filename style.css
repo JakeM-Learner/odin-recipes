@@ -1,41 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
-    background-color: antiquewhite;
-}
-
-h1 {
-    margin-top: 50px;
+    background-color: #eee;
+    font-family: "Times New Roman" 'Times New Roman', Times, serif;
+  
+  }
+  
+  .card {   
+    width: 600px;
+    height: 800px;
+    background: antiquewhite;
+    margin: 16px auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    outline: black solid 1px;
+  }
+  
+  .title {
+    display: inline-block;
+    background: antiquewhite;
+    font-size: 36px;
+    width: 200px;
+    padding: 2px 8px;
+    margin: 8px 200px;
+    margin-bottom: 20px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
+    outline: maroon double 4px;
+  }
+  
+  .content {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin: 10px 75px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: maroon dotted 1px;
+  }
+  
 
-.grey {
-    color: black;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(238, 232, 232);
-    text-align: center;
-    }
 
-#button1 {
-    position:absolute;
-    left:50%;
-    top:15%;
-    transform: translate(-50%, -50%);
-}
-
-#button2 {
-    position:absolute;
-    left:50%;
-    top:20%;
-    transform: translate(-50%, -50%);
-}
-
-#button3 {
-    position:absolute;
-    left:50%;
-    top:25%;
-    transform: translate(-50%, -50%);
-}
 
 a:link    {color:#000;}  /* unvisited link  */
 a:visited {color:#000;}  /* visited link    */
