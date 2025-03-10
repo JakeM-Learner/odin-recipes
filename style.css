@@ -8,6 +8,7 @@
 body {
     background-color: #eee;
     font-family: "Times New Roman" 'Times New Roman', Times, serif;
+    font-size: 10px;
     background: antiquewhite;
   
   }
@@ -18,11 +19,11 @@ body {
     display: inline-block;
     background: antiquewhite;
     font-size: 48px;
-    width: 250px;
+    width: 5em;
     padding: 2px 8px;
-    margin: 100px 50%;
+    margin: 1em 50%;
     transform: translate(-50%, 0);
-    margin-bottom: 50px;
+    margin-bottom: 1em;
     text-align: center;
     outline: maroon double 4px;
   }
@@ -32,8 +33,8 @@ body {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
-    width: 650px;
-    margin: 10px 50%;
+    width: 32.5em;
+    margin: 1em 50%;
     transform: translate(-50%, 0);
     padding-top: 16px;
     padding-bottom: 16px;
